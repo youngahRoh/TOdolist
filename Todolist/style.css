@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Roboto&display=swap');
+
+.hidden{
+    display: none;
+}
+body {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.center {
+    text-align: center;
+    margin: 0, auto;
+    position: absolute;
+    top: 50%;
+     left: 50%;
+  transform: translate(-50%,-50%);
+}
+ul{
+    text-align: center;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-img {
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+#clock {
+    font-size: 100px;
+    text-align: center;
+}
+h2{
+    margin-top: 35px;
+    margin-bottom: 8px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-shadow: 6px 2px 2px gray;
+}
+h1{
+    text-align: center;
+    margin: 5px, 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 2px 2px gray;
+
+}
+
+.buttoncss {
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    margin-left: 7px;
+    color: white;
+}
+
+.inputcss-form{
+    width: 500px;
+}
+
+li {
+    margin-top: 7px;
+    font-size: 15px;
+}
+
+.span2 {
+    display: block;
+}
+
+#todo-form {
+    border-style: none;
+}
+
+.margin{
+    margin-bottom: 20px;
+}
